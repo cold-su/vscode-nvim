@@ -17,6 +17,10 @@ if vim.g.vscode then
             vim.fn.VSCodeNotify("editor.unfold")
         end,
     }
+    -- f 折叠
+    -- F 折叠全部
+    -- uf 展开
+    -- uF 展开全部
     vim.keymap.set('n', 'uF', fold.unfoldAll)
     vim.keymap.set('n', 'F', fold.foldAll)
     vim.keymap.set('n', 'uf', fold.unfold)
