@@ -1,7 +1,6 @@
 local coldsu = {}
 
 coldsu.g = vim.g
-coldsu.g = vim.g
 coldsu.b = vim.b
 coldsu.o = vim.o
 coldsu.v = vim.v
