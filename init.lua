@@ -1,28 +1,18 @@
-vim.opt.clipboard = 'unnamedplus'
-vim.opt.completeopt = {'menu', 'menuone', 'noselect'}
-vim.opt.mouse = 'a'-- allow the mouse to be used in Nvim
+vim.cmd.source(vim.fn.stdpath("config") .. "/.vimrc")
 
-if vim.g.vscode then
-    local fold = {
-        unfoldAll = function()
-            vim.fn.VSCodeNotify("editor.unfoldAll")
-        end,
-        foldAll = function()
-            vim.fn.VSCodeNotify("editor.foldAll")
-        end,
-        fold = function()
-            vim.fn.VSCodeNotify("editor.fold")
-        end,
-        unfold = function()
-            vim.fn.VSCodeNotify("editor.unfold")
-        end,
-    }
-    -- f 折叠
-    -- F 折叠全部
-    -- uf 展开
-    -- uF 展开全部
-    vim.keymap.set('n', 'uF', fold.unfoldAll)
-    vim.keymap.set('n', 'F', fold.foldAll)
-    vim.keymap.set('n', 'uf', fold.unfold)
-    vim.keymap.set('n', 'f', fold.fold)
-end
+require('keymap')   --按键设置
+require('settings') --基础设置
+
+--[[
+
+在正常模式下：
+ff 折叠
+fu 展开
+FF 全部折叠
+Fu 全部展开
+u 撤回
+dG 光标一下的内容全部剪切
+Ctrl+h 取消高亮
+* 查找光标的这个词
+alt+上下 移动行
+--]]
