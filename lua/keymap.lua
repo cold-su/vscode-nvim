@@ -24,3 +24,8 @@ if coldsu.g.vscode then
     coldsu.keymap.set('n', 'fu', fold.unfold)
     coldsu.keymap.set('n', 'ff', fold.fold)
 end
+-- Telescope
+-- 查找文件
+-- coldsu.keymap.set("n", "f", ":Telescope find_files<CR>")
+-- 全局搜索
+-- coldsu.keymap.set("n", "g", ":Telescope live_grep<CR>")
