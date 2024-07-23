@@ -1,5 +1,6 @@
 " 当光标一段时间保持不动了，就禁用高亮
 autocmd cursorhold * set nohlsearch
+
 " 当输入查找命令时，再启用高亮
 " noremap n :set hlsearch<cr>n
 " noremap N :set hlsearch<cr>N
@@ -24,8 +25,8 @@ nnoremap U <C-r>
 " 'a (单引号加一个标记a) 会将光标跳转到a标记所在行的 行首 。
 " 而 a 命令会将光标跳转到标记所在行上被标记的列位置，
 " 即同时恢复行、列的位置。
-nnoremap ' `      
-nnoremap ` '
+" nnoremap ' `      
+" nnoremap ` '
 
 " y ( yank 的缩写形式) 命令用于复制文本到Vim寄存器中，
 " 其命令格式为： ["x]y{motion} ，
@@ -43,4 +44,3 @@ vnoremap > >gv
 " 映射全选+复制 ctrl+a
 map <C-A> ggVGY
 map! <C-A> <Esc>ggVGY
-
