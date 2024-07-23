@@ -21,4 +21,6 @@ if vim.g.vscode then
     vim.keymap.set('n', 'FF', fold.foldAll)
     vim.keymap.set('n', 'fu', fold.unfold)
     vim.keymap.set('n', 'ff', fold.fold)
+
+    vim.keymap.set('n', 'fd', fold.fold + 'd2d')
 end
