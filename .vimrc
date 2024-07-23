@@ -40,3 +40,13 @@ map Y y$
 
 " 暂时不知道有什么用
 nnoremap <C-a> <Home>
+
+"Vim可视化模式下， > 用于增加缩进；
+"而 gv 命令可以用于重新选取上一次由可视模式所选择的文本范围。
+"为了避免丢失可视化模式下的选择本文，可增加如下 Vim 按键映射配置：
+vnoremap < <gv      
+vnoremap > >gv
+
+" 映射全选+复制 ctrl+a
+map <C-A> ggVGY
+map! <C-A> <Esc>ggVGY
