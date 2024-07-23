@@ -74,44 +74,14 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["nvim-treesitter"] = {
-    loaded = true,
-    path = "C:\\Users\\-home-\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\-home-\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
-  },
-  ["plenary.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\-home-\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
-    url = "https://github.com/nvim-lua/plenary.nvim"
-  },
-  ["telescope.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\-home-\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
-    url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["vim-expand-region"] = {
-    config = { "require('pack/vim-expand-region').setup()" },
-    loaded = true,
-    path = "C:\\Users\\-home-\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-expand-region",
-    url = "https://github.com/terryma/vim-expand-region"
-  },
-  ["vim-startuptime"] = {
-    loaded = true,
-    path = "C:\\Users\\-home-\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-startuptime",
-    url = "https://github.com/dstein64/vim-startuptime"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: vim-expand-region
-time([[Config for vim-expand-region]], true)
-require('pack/vim-expand-region').setup()
-time([[Config for vim-expand-region]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
