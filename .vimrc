@@ -3,13 +3,9 @@ autocmd cursorhold * set nohlsearch
 " 当输入查找命令时，再启用高亮
 " noremap n :set hlsearch<cr>n
 " noremap N :set hlsearch<cr>N
-" noremap / :set hlsearch<cr>/
-" noremap ? :set hlsearch<cr>?
-" noremap * *:set hlsearch<cr>
-" nnoremap <c-h> :call DisableHighlight()<cr>
-" function! DisableHighlight()
-"     set nohlsearch
-" endfunc
+noremap / :set hlsearch<cr>/
+noremap ? :set hlsearch<cr>?
+noremap * *:set hlsearch<cr>
 
 " alt+hjkl移动行
 " mini.move
@@ -38,9 +34,6 @@ nnoremap ` '
 "以下 Vim 按键映射，将大写的 Y 按键映射为 y$ 。
 map Y y$
 
-" 暂时不知道有什么用
-nnoremap <C-a> <Home>
-
 "Vim可视化模式下， > 用于增加缩进；
 "而 gv 命令可以用于重新选取上一次由可视模式所选择的文本范围。
 "为了避免丢失可视化模式下的选择本文，可增加如下 Vim 按键映射配置：
@@ -50,3 +43,4 @@ vnoremap > >gv
 " 映射全选+复制 ctrl+a
 map <C-A> ggVGY
 map! <C-A> <Esc>ggVGY
+

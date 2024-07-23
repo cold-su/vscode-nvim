@@ -1,19 +1,11 @@
 vim.cmd [[packadd packer.nvim]]
 
 require('packer').startup({
-  function(use)
-    use { 'wbthomason/packer.nvim' }
-
-    --[[     use { "nvim-lua/plenary.nvim" }
-    use {
-      'nvim-telescope/telescope.nvim', tag = '0.1.8',
-      requires = { { 'nvim-lua/plenary.nvim' } }
-    }
-    use { 'nvim-treesitter/nvim-treesitter' }
-    use { "dstein64/vim-startuptime", cmd = "StartupTime" }
-    use { 'neoclide/coc.nvim' }
-  ]]
-  end
+    function(use)
+        -- 使用插件管理器，插件以后再按需装上
+        use { 'wbthomason/packer.nvim' }
+    end
 })
 
+-- 启动时检查更新
 -- require('packer').sync()
