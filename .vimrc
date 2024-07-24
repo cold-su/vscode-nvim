@@ -27,7 +27,3 @@ vnoremap > >gv
 " 映射全选+复制 ctrl+a
 map <C-A> ggVGY
 map! <C-A> <Esc>ggVGY
-
-" 取消映射插入模式下的Ctrl+D和Ctrl+C
-iunmap <C-D>
-iunmap <C-C>
