@@ -8,26 +8,8 @@ noremap / :set hlsearch<cr>/
 noremap ? :set hlsearch<cr>?
 noremap * *:set hlsearch<cr>
 
-" 移植到 keymaps.lua 里面了
-" alt+hjkl移动行
-" mini.move
-" nnoremap <M-j> :m +1<CR>==
-" vnoremap <M-j> :m '>+1<CR>gv=gv
-" nnoremap <M-k> :m -2<CR>==
-" vnoremap <M-k> :m '<-2<CR>gv=gv
-" nnoremap <M-h> <<
-" vnoremap <M-h> <gv
-" nnoremap <M-l> >>
-" vnoremap <M-l> >gv
-
 " 按 U 便可以 取消撤销 操作
 nnoremap U <C-r>
-
-" 'a (单引号加一个标记a) 会将光标跳转到a标记所在行的 行首 。
-" 而 a 命令会将光标跳转到标记所在行上被标记的列位置，
-" 即同时恢复行、列的位置。
-" nnoremap ' `      
-" nnoremap ` '
 
 " y ( yank 的缩写形式) 命令用于复制文本到Vim寄存器中，
 " 其命令格式为： ["x]y{motion} ，
