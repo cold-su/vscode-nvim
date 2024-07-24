@@ -8,16 +8,17 @@ noremap / :set hlsearch<cr>/
 noremap ? :set hlsearch<cr>?
 noremap * *:set hlsearch<cr>
 
+" 移植到 keymaps.lua 里面了
 " alt+hjkl移动行
 " mini.move
-nnoremap <M-j> :m +1<CR>==
-vnoremap <M-j> :m '>+1<CR>gv=gv
-nnoremap <M-k> :m -2<CR>==
-vnoremap <M-k> :m '<-2<CR>gv=gv
-nnoremap <M-h> <<
-vnoremap <M-h> <gv
-nnoremap <M-l> >>
-vnoremap <M-l> >gv
+" nnoremap <M-j> :m +1<CR>==
+" vnoremap <M-j> :m '>+1<CR>gv=gv
+" nnoremap <M-k> :m -2<CR>==
+" vnoremap <M-k> :m '<-2<CR>gv=gv
+" nnoremap <M-h> <<
+" vnoremap <M-h> <gv
+" nnoremap <M-l> >>
+" vnoremap <M-l> >gv
 
 " 按 U 便可以 取消撤销 操作
 nnoremap U <C-r>

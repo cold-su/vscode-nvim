@@ -9,3 +9,4 @@ vim.opt.expandtab = true
 vim.opt.backup = false
 vim.opt.swapfile = false
 vim.opt.wrap = false
+vim.opt.undolevels = 10000

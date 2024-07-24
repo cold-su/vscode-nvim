@@ -1,7 +1,7 @@
 vim.cmd.source(vim.fn.stdpath("config") .. "/.vimrc")
 
-require('keymap')   --按键设置
-require('settings') --基础设置
+require('lua.keymaps') --按键设置
+require('lua.options') --基础设置
 -- require('plugins')  --插件
 
 --[[
