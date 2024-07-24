@@ -1,5 +1,5 @@
 vim.opt.completeopt = { 'menu', 'menuone', 'noselect' }
-vim.opt.clipboard = 'unnamed, unnamedplus'
+vim.opt.clipboard = 'unnamedplus'
 vim.opt.viminfo = "!,'10000,<50,s10,h"
 vim.opt.incsearch = true
 vim.opt.ignorecase = true
