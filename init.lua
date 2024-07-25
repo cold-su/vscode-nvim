@@ -1,3 +1,5 @@
+-- :so 可实现立刻重载，不必退出nvim再进了
+
 vim.cmd.source(vim.fn.stdpath("config") .. "/.vimrc")
 
 require('keymaps') --按键设置
