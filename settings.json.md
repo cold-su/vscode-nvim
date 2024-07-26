@@ -20,7 +20,7 @@
     "files.autoSave": "onFocusChange",
 
     //字体
-    "editor.fontFamily": "Consolas, 'Courier New', monospace, 霞鹜文楷 屏幕阅读版",
+    "editor.fontFamily": "Consolas, 霞鹜文楷 屏幕阅读版, 'Courier New', monospace",
     "terminal.integrated.fontFamily": "Cascadia Code, monospace",
     "markdown.preview.fontFamily": "霞鹜文楷 屏幕阅读版",
 
