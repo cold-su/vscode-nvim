@@ -14,7 +14,7 @@
 First check if you have installed [neovim](https://neovim.io/) and the vscode extension vscode-neovim.
 
 ```bash
-git clone https://github.com/cold-su/nvim.git "C:\Users\{YOURNAME}\AppData\Local\nvim"
+git clone https://github.com/cold-su/vscode-nvim.git "C:\Users\{YOURNAME}\AppData\Local\nvim"
 ```
 
 Neovim 中输入 `:so` 可立即重载。
