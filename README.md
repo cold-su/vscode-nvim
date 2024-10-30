@@ -1,5 +1,7 @@
 # Neovim
 
+## Dependences
+
 - Windows 11
 - Neovim (version 0.10.0)
 - git
@@ -9,7 +11,7 @@
 
 需事先下载 [neovim](https://neovim.io/) 本体和 vscode 的扩展 vscode-neovim，然后再用下面的命令下载（`YOURNAME`的部分替换成自己的）
 
-First check if you have installed [neovim](https://neovim.io/) and vscode extension vscode-neovim.
+First check if you have installed [neovim](https://neovim.io/) and the vscode extension vscode-neovim.
 
 ```bash
 git clone https://github.com/cold-su/nvim.git "C:\Users\{YOURNAME}\AppData\Local\nvim"
@@ -17,7 +19,9 @@ git clone https://github.com/cold-su/nvim.git "C:\Users\{YOURNAME}\AppData\Local
 
 Neovim 中输入 `:so` 可立即重载。
 
-## Tree
+You can reload nvim by using `:so`.
+
+## File tree
 
 ```txt
 # ~\AppData\Local\nvim
